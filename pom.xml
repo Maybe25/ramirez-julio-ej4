@@ -6,8 +6,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.5.0</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<version>2.4.5</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.licoreria.api</groupId>
 	<artifactId>Ejercicio4</artifactId>
@@ -32,10 +32,10 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
+			<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>provided</optional>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
